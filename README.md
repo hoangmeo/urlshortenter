@@ -8,7 +8,7 @@ Let's call it lin.ks!
 ### Install from source
 
 ```bash
-$ git clone https://gitlab.com/hoangn.meo/url-shortenter.git <my-project-name>
+$ git clone https://gitlab.com/hoangn.meo/urlshortenter.git <my-project-name>
 $ cd <my-project-name>
 $ docker-compose up
 ```
