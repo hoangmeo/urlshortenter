@@ -14,9 +14,6 @@ $ docker-compose up
 ```
 
 #### How to use
-POST http://localhost:5000/ HTTP/1.1
-content-type: application/json
-
-{  
-  "url":"http://anninhthudo.vn/kinh-doanh/gia-xang-tang-manh-sau-nhieu-thang-on-dinh-len-gan-19000-dong-lit/763401.antd"
-}
+```bash
+curl -H "Content-Type: application/json" -X POST -d '{"url":"http://anninhthudo.vn/quan-su/163.antd"}' http://localhost:5000/
+```
